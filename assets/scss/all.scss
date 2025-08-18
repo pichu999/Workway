@@ -1,10 +1,21 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "./helper/variables";
+@import "./helper/variables-dark";
+
+@import 'bootstrap/scss/bootstrap';
+
+@import './helper/utilities';
+@import "bootstrap/scss/utilities/api";
 
 @import './base/base';
 
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import './layout/header';
+@import './layout/footer';
 
-@import './pages/index.scss';
-@import './pages/user.scss';
+@import './pages/index';
+@import './pages/user';
