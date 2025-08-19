@@ -701,14 +701,17 @@ $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
 // $h1-font-size:                $font-size-base * 2.5 !default;
-$h1-font-size:                $font-size-base * 3 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
+// $h2-font-size:                $font-size-base * 2 !default;
+// $h3-font-size:                $font-size-base * 1.75 !default;
+// $h4-font-size:                $font-size-base * 1.5 !default;
 // $h5-font-size:                $font-size-base * 1.25 !default;
-$h5-font-size:                $font-size-base * 1.125 !default;
-$h6-font-size:                $font-size-base !default;
-$h7-font-size:                $font-size-base * .875!default;
+// $h6-font-size:                $font-size-base !default;
+$h1-font-size:                $font-size-base * 5 !default;
+$h2-font-size:                $font-size-base * 3 !default;
+$h3-font-size:                $font-size-base * 2 !default;
+$h4-font-size:                $font-size-base * 1.75 !default;
+$h5-font-size:                $font-size-base * 1.5 !default;
+$h6-font-size:                $font-size-base * 1.25!default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -719,7 +722,10 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  7: $h7-font-size
+  lg: 1.125rem,
+  md: 1rem,
+  sm: 0.875rem,
+  xs: 0.75rem
 ) !default;
 // scss-docs-end font-sizes
 
