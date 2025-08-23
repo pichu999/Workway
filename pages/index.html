@@ -5,13 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>index</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <title>Workway</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
 
-
+    <main>
+      <section class="py-12 position-relative">
+        <img src="/assets/images/gradient-ball.png" alt="gradient-ball" class="position-absolute gradient-ball-1 z-n1">
+        <div class="w-815 mx-auto mb-8">
+          <h2 class="fs-3 fs-md-1 fw-bold text-center mb-5">一起陪伴、探索<br>還有你那些未完成的夢</h2>
+          <div class="d-block d-md-flex align-items-center justify-content-between">          
+            <div class="fs-md fs-md-lg text-natural-50 py-1">
+              <p>自由工作很美，也很難。</p>
+              <p>我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常</p>
+            </div>
+            <button type="button" class="btn btn-secondary-50 fs-6 fs-md-5 fw-bold px-5 py-2">開始你的職旅
+              <span class="ms-1 pb-1 fs-4 align-middle material-icons-outlined">chevron_right</span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/images/hero-1.png" alt="hero-1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex flex-column gap-6">
+                <img src="/assets/images/hero-2.png" alt="hero-2" class="img-fluid">
+                <img src="/assets/images/hero-3.png" alt="hero-3" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="/assets/images/hero-4.png" alt="hero-4" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <%- include('./layout/footer'); -%>
 

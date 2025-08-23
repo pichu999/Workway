@@ -2,6 +2,12 @@
     width: 300px;
 }
 
+@media(max-width: 991px) {
+    .side-width {
+        width: auto;
+    }
+}
+
 .tab-btn-bg {
     .nav-link {
         background-color: $white;
