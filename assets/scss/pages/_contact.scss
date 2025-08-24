@@ -1,0 +1,10 @@
+.form-top-img {
+  top: 80px;
+  right: 160px;
+}
+
+@media (max-width: 1024px) {
+  .form-top-img {
+    display: none;
+  }
+}
